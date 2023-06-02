@@ -1,4 +1,4 @@
-Versión 2.1.1
+Version 2.1.1
 
 """
 VersaDecryptor - Decryptor for various encryption algorithms
