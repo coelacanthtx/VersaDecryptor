@@ -1,79 +1,39 @@
-# VersaDecryptor
-This script allows for decryption of data encrypted with various encryption algorithms such as AES-256-CBC. It supports different scenarios where one or more parameters are known, including private key, IV, ciphertext, encryption algorithm, BTC address, and passphrase.
-VersaDecryptor - Decryptor for various encryption algorithms
+VersaDecryptor - Decryptor for Various Encryption Algorithms
 
-Version: 1
+Version: 2.1.1
 
-This script allows for decryption of data encrypted with various encryption algorithms such as AES-256-CBC.
-It supports different scenarios where one or more parameters are known, including private key, IV, ciphertext,
-encryption algorithm, BTC address, and passphrase.
+Overview:
+VersaDecryptor is a versatile decryptor program that supports various encryption algorithms and scenarios. It allows for the decryption of data encrypted with algorithms such as AES-256-CBC, AES-256-ECB, DES, 3DES, RSA, and more. It handles different scenarios where one or more parameters are known, including private key, IV, ciphertext, encryption algorithm, BTC address, and passphrase.
+
+Features:
+- Decrypt data encrypted with various encryption algorithms.
+- Support for multiple encryption algorithms, including AES-256-CBC, AES-256-ECB, DES, 3DES, RSA, and more.
+- Handle different scenarios with known parameters such as private key, IV, ciphertext, encryption algorithm, BTC address, and passphrase.
+- Interactive mode for user-friendly input and decryption process.
+- Retrieve and display the balances of Bitcoin addresses.
+- Calculate the grand total balance of multiple Bitcoin addresses.
 
 Usage:
-    python VersaDecryptor.py
+1. Install Python (version 3.6 or above) on your machine.
+2. Clone the repository or download the VersaDecryptor script.
+3. Open a command-line interface and navigate to the directory containing the VersaDecryptor script using the `cd` command.
+4. Install the required dependencies by running the command: `pip install -r requirements.txt`.
+5. Run the VersaDecryptor script using the command: `python VersaDecryptor.py`.
+6. Follow the prompts and provide the necessary information to decrypt the data or retrieve Bitcoin address balances.
 
-Note: This is an alpha version and should be used for testing and educational purposes only. Use it responsibly
-and ensure you have the necessary permissions to decrypt the data.
+Note:
+- This program is an alpha version and should be used for testing and educational purposes only.
+- Use it responsibly and ensure you have the necessary permissions to decrypt the data or access Bitcoin address balances.
 
-Feel free to copy and use this code for your development and testing purposes. Remember to add your custom code for deriving private keys, IVs, and handling other encryption algorithms as needed.
-```
-# VersaDecryptor
+Dependencies:
+- Python (version 3.6 or above)
+- cryptography package
 
-VersaDecryptor is a versatile decryption tool that supports multiple encryption algorithms and allows for the decryption of various types of encrypted data. It provides a flexible and customizable solution for decrypting encrypted files, private keys, and other sensitive data.
+Contributing:
+Contributions to the VersaDecryptor project are welcome! If you find any issues, have suggestions for improvements, or want to add new features, please open an issue or submit a pull request on GitHub.
 
-## Features
+License:
+This project is licensed under the GNU General Public License v3.0. See the LICENSE file for more details.
 
-- Supports multiple encryption algorithms, including AES-256-CBC.
-- Decrypts encrypted data using known parameters such as private key, IV, passphrase, ciphertext, or BTC address.
-- Provides a command-line interface for easy usage and customization.
-- Offers a modular and extensible architecture for easy integration into other projects.
-- Cross-platform compatibility (Windows, macOS, Linux).
-
-## Installation
-
-VersaDecryptor is written in Python and requires Python 3.x to run. To install VersaDecryptor and its dependencies, follow these steps:
-
-1. Clone the VersaDecryptor repository:
-
-   ```
-   git clone https://github.com/coelacanthtx/VersaDecryptor.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```
-   cd VersaDecryptor
-   ```
-
-3. Install the required dependencies using pip:
-
-   ```
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-To use VersaDecryptor, run the `versadecryptor.py` script with the appropriate command-line arguments. Here are some examples:
-
-```
-python versadecryptor.py --private-key <private_key> --iv <iv_value> --ciphertext <ciphertext>
-```
-
-```
-python versadecryptor.py --passphrase <passphrase> --ciphertext <ciphertext> --encryption-algorithm AES-256-CBC
-```
-
-Refer to the command-line options and their descriptions in the documentation for more details on the available parameters and usage examples.
-
-## Contributing
-
-Contributions to VersaDecryptor are welcome! If you find any issues, have suggestions for improvements, or would like to add new features, please submit a pull request. Make sure to follow the existing coding style and include tests for any new functionality.
-
-## License
-
-VersaDecryptor is licensed under the GNU General Public License (GPL) v3.0. See the [LICENSE](LICENSE) file for more details.
-
-## Acknowledgments
-
-VersaDecryptor is built upon various open-source libraries and tools. We would like to express our gratitude to the developers of these projects for their valuable contributions.
-
-```
+Disclaimer:
+This program is provided as-is, without any warranty or guarantee of its functionality or suitability for any purpose. Use it at your own risk.
