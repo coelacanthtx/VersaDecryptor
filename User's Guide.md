@@ -1,6 +1,6 @@
 ---
 
-**User's Guide -  VersaDecryptor Version 3**
+**User's Guide**
 
 The User's Guide provides detailed instructions on using VersaDecryptor to decrypt data and retrieve Bitcoin address balances.
 
@@ -79,4 +79,3 @@ Throughout the VersaDecryptor script, you may encounter instances of placeholder
 For any further assistance or questions, please refer to the project's documentation or consult the README file on the project's GitHub repository.
 
 ---
-
